@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: face;
+    src: url(font-haji);
+}
+
+header{
+    border: 1px solid black;
+    display: flex;
+    background-color: #611DF2;
+    height: 8vh;
+    align-items: center;
+    
+}
+
+header a{
+    color: #AC99F2;
+    text-decoration: none;
+}
+
+header img{
+    width: 2vw;
+
+}
+
