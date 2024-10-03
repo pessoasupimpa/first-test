@@ -86,16 +86,13 @@ div.text-2{
     align-items: center;
     margin-right: 10rem;
     margin-left: 10rem;
-}
+/* } */
 
-.a-sides{
+.p-sides{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 3em;
-    margin-right: 30rem;
-    margin-left: 29.5rem;
-} */
+}
 
 .copy{
     display: flex;
@@ -103,3 +100,6 @@ div.text-2{
     justify-content: center;
 
 }
+
+
+
