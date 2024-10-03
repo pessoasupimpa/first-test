@@ -91,6 +91,7 @@ div.text-2{
 .p-sides{
     display: flex;
     flex-direction: row;
+    align-items:center;
     justify-content: space-between;
 }
 
