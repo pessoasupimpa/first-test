@@ -15,7 +15,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
 
 .food-item {
@@ -43,14 +43,4 @@ h1 {
 .food-item h2 {
     color: #555;
     font-size: 1.2em;
-}
-
-label {
-    display: inline-flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-input[type="checkbox"] {
-    margin-right: 5px;
 }

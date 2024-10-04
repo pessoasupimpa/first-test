@@ -42,7 +42,7 @@ header nav{
 main{
     color: #b4a2f3;
     padding-bottom: 10rem;
-    background-color: #04010a;
+    background-image: url(img/backgroundcupuacu.png);
 }
 
 footer{
@@ -86,16 +86,33 @@ div.text-2{
     align-items: center;
     margin-right: 10rem;
     margin-left: 10rem;
-}
+/* } */
 
 .a-sides{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.p-sides{
+    background-color:#8351EB
+}
+
+.img-sides{
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3em;
-    margin-right: 30rem;
-    margin-left: 29.5rem;
-} */
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.p-sides{
+   padding-left: 15rem;
+   padding-right: 17rem;
+}
 
 .copy{
     display: flex;
@@ -103,3 +120,26 @@ div.text-2{
     justify-content: center;
 
 }
+
+.acai-conteiner{
+    padding-top: 20rem;
+    width: 100dvw;
+    height: 70dvh;
+}
+
+.img-slides-solo{
+    border: 1rem solid #8351EB;
+    border-radius: 1rem;
+    background-color: #4828bb;
+}
+
+.img-sides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15rem;
+    padding-left: 15rem;
+}
+
+
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Seleção de Alimentos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Selecione seus Alimentos</h1>
@@ -12,28 +13,22 @@
         <div class="food-item">
             <img src="https://via.placeholder.com/150" alt="Maçã">
             <h2>Maçã</h2>
-            <label>
-                <input type="checkbox" name="apple">
-                Selecionar
-            </label>
+            <label for="apple-quantity">Quantidade:</label>
+            <input type="number" id="apple-quantity" name="apple-quantity" min="0" value="0">
         </div>
         
         <div class="food-item">
             <img src="https://via.placeholder.com/150" alt="Banana">
             <h2>Banana</h2>
-            <label>
-                <input type="checkbox" name="banana">
-                Selecionar
-            </label>
+            <label for="banana-quantity">Quantidade:</label>
+            <input type="number" id="banana-quantity" name="banana-quantity" min="0" value="0">
         </div>
         
         <div class="food-item">
             <img src="https://via.placeholder.com/150" alt="Laranja">
             <h2>Laranja</h2>
-            <label>
-                <input type="checkbox" name="orange">
-                Selecionar
-            </label>
+            <label for="orange-quantity">Quantidade:</label>
+            <input type="number" id="orange-quantity" name="orange-quantity" min="0" value="0">
         </div>
     </div>
 </body>
