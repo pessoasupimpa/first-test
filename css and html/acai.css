@@ -13,6 +13,10 @@ body{
     font-family: 'fawkes';
 }
 
+body p{
+    font-size: 1.2rem;
+}
+
 html a{
     text-decoration: none;
 }

@@ -13,6 +13,9 @@ body{
     font-family: 'fawkes';
 }
 
+body p{
+    font-size: 1.5rem;
+}
 html a{
     text-decoration: none;
 }
@@ -102,4 +105,6 @@ div.text-2{
     align-items:end;
     justify-content: center;
 
+}
+.socialmedia{
 }
